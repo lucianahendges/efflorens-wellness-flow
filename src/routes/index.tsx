@@ -152,6 +152,9 @@ function Index() {
             <h1 className="mt-6 font-display text-4xl leading-[1.08] text-primary-foreground sm:text-5xl md:text-6xl">
               Acupuntura por Assinatura em Chapecó/SC
             </h1>
+            <p className="mt-3 font-display text-xl text-gold sm:text-2xl">
+              by Luciana Hendges
+            </p>
             <p className="mt-6 max-w-xl text-base leading-relaxed text-primary-foreground/90 md:text-lg">
               Cuidado contínuo para sua saúde física e emocional através da Medicina Tradicional
               Chinesa.
@@ -201,7 +204,7 @@ function Index() {
           <Reveal delay={120}>
             <div className="relative rounded-4xl border border-gold/40 bg-card p-9 shadow-[var(--shadow-lift)] md:p-11">
               <span className="absolute -top-3 right-8 rounded-full bg-gold px-4 py-1.5 text-xs font-semibold tracking-wide text-gold-foreground uppercase">
-                Preço Popular
+                Preço Social
               </span>
               <p className="font-display text-2xl">Assinatura Mensal</p>
               <div className="mt-6 flex items-end gap-2">
