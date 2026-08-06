@@ -176,6 +176,23 @@ function Index() {
         </div>
       </section>
 
+      {/* Destaque Dor Crônica */}
+      <section className="section-pad bg-sand">
+        <div className="mx-auto max-w-4xl px-5 text-center">
+          <Reveal>
+            <HeartPulse className="mx-auto h-10 w-10 text-primary" />
+            <p className="mt-6 font-display text-2xl leading-relaxed text-foreground md:text-3xl">
+              “Conviver com a dor não precisa ser sua rotina.”
+            </p>
+            <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
+              A Efflorens oferece um programa de acupuntura por assinatura voltado ao acompanhamento
+              de pessoas com dor crônica, promovendo cuidado contínuo e individualizado para auxiliar
+              no manejo da dor e no bem-estar.
+            </p>
+          </Reveal>
+        </div>
+      </section>
+
       {/* Plano */}
       <section id="plano" className="section-pad" style={{ background: "var(--gradient-soft)" }}>
         <div className="mx-auto grid max-w-6xl items-center gap-14 px-5 lg:grid-cols-2">
