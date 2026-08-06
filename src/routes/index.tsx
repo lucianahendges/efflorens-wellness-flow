@@ -20,7 +20,7 @@ import { Reveal } from "@/components/Reveal";
 
 const WHATSAPP =
   "https://wa.me/5549999775932?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20a%20assinatura%20de%20acupuntura%20da%20Efflorens.";
-const INSTAGRAM = "https://instagram.com/efflorens";
+const INSTAGRAM = "https://instagram.com/universoefflorens";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -152,9 +152,6 @@ function Index() {
             <h1 className="mt-6 font-display text-4xl leading-[1.08] text-primary-foreground sm:text-5xl md:text-6xl">
               Acupuntura por Assinatura em Chapecó/SC
             </h1>
-            <p className="mt-3 font-display text-xl text-gold sm:text-2xl">
-              by Luciana Hendges
-            </p>
             <p className="mt-6 max-w-xl text-base leading-relaxed text-primary-foreground/90 md:text-lg">
               Cuidado contínuo para sua saúde física e emocional através da Medicina Tradicional
               Chinesa.
